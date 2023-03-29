@@ -9,6 +9,9 @@ class Player
 
   def first_name
     @name.split(/ /, 2)[0] 
-    
+  end
+
+  def last_name
+    @name.split(/ /, 2)[1] 
   end
 end
